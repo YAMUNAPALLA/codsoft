@@ -1,0 +1,50 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+#about {
+    padding: 20px;
+    text-align: center;
+}
+
+#skills {
+    padding: 20px;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+#resume {
+    text-align: center;
+    padding: 20px;
+}
+
+#contact {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling for footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
